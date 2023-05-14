@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.0)
+project(cpp_31_bad_habtis)
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+message(STATUS "This is cpp 31 bad habits project")
+
+
+file(GLOB_RECURSE SOURCE_FILES "src/*.cpp")
+foreach(source_file ${SOURCE_FILES})
+    get_filename_component(file_name ${source_file} NAME_WE)
+    add_executable(${file_name} ${source_file})
+endforeach()
+
+

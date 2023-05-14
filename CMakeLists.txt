@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.0)
-project(cpp_31_bad_habtis)
+project(cpp_bad_habtis)
 
 set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-message(STATUS "This is cpp 31 bad habits project")
+message(STATUS "This is cpp bad habits project")
 
 
 file(GLOB_RECURSE SOURCE_FILES "src/*.cpp")

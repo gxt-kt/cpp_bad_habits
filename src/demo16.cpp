@@ -6,6 +6,7 @@ void Test() {
   int* x2 = new int;    // will be garbage
   int* x3 = new int();  // will be initialize to zero
   int* x4 = new int{};  // will be initialize to zero
+  // int x5();          // Is a function not a value initialize
 }
 
 int main() {

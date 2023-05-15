@@ -61,3 +61,26 @@ Such as you can use `const auto& [first,second]:map` to iterate map.
 
 Then you can just use first and second instead of val.first and val.second.
 
+## 12. Use struct when you have multiple return values
+
+You can use `auto [val1,val2,...]=ReturnFun()` to get the values and it's no necessary to create a new struct variable.
+
+## 13. Use `constexpr` to calculate some expression on the compile time.
+
+Use `constexpr` for some simple calculation expression when you know the input value.
+
+## 14. You need add `virtual` for the parent class constructor function when inheriting.
+
+If you don't add virtual, the program will not exec the child deconstructor function when the object destruction.
+
+Also it's a good habit to add override behind the child deconstructor function.
+
+Thus it's will be compile error withoud virtual.
+
+## 15. The variables in the class are initialized in the order of definition 
+
+So you can use the forent define variable to initialize the behind variable.
+
+## 16. Always initialize your variable is a good idea
+
+Notice that different initialize way may have different value.

@@ -1,7 +1,9 @@
 # cpp bad habits
 
 >  Ref: [https://www.youtube.com/watch?v=i_wDa2AS_8w](https://www.youtube.com/watch?v=i_wDa2AS_8w)
+>  
 > And I have merged some chapters that the content is similar or can be discussed together.
+> 
 > And I also delete several chapters that too simple or no necessary to talk about.
 
 
